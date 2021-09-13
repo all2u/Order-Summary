@@ -1,3 +1,4 @@
+@@ -1,162 +1,174 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 * {
@@ -20,6 +21,7 @@ body {
 }
 
 main {
+    /* width: 1440px; */
     margin: 0;
     padding: 0;
     transform: translate(-50%, -50%);
@@ -135,6 +137,7 @@ p{
 
 button {
     margin-top: 35px;
+    margin-top: 25px;
     height: 50px;
     border-radius: 10px;
     background: hsl(245, 75%, 52%);
@@ -150,8 +153,10 @@ button:hover{
 }
 h4{
     margin-top: 35px;
+    margin-top: 25px;
     text-align: center;
     font-size: 13px;
+    font-size: 16px;
     font-weight: 900;
     color: #787c95;
 }
@@ -159,4 +164,15 @@ h4{
 h4:hover{
     cursor: pointer;
     color: hsl(223, 47%, 23%);
+}
+
+@media (max-width: 375px) {
+    .card {
+        width: 325px;
+        height: 600px;
+        margin: 0 auto;
+    }
+    .container{
+        width: 275px;
+    }
 }
