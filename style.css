@@ -20,7 +20,6 @@ body {
 }
 
 main {
-    /* width: 1440px; */
     margin: 0;
     padding: 0;
     transform: translate(-50%, -50%);
@@ -135,7 +134,7 @@ p{
 }
 
 button {
-    margin-top: 25px;
+    margin-top: 35px;
     height: 50px;
     border-radius: 10px;
     background: hsl(245, 75%, 52%);
@@ -150,9 +149,9 @@ button:hover{
     background:#666699;
 }
 h4{
-    margin-top: 25px;
+    margin-top: 35px;
     text-align: center;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 900;
     color: #787c95;
 }
@@ -160,15 +159,4 @@ h4{
 h4:hover{
     cursor: pointer;
     color: hsl(223, 47%, 23%);
-}
-
-@media (max-width: 375px) {
-    .card {
-        width: 325px;
-        height: 600px;
-        margin: 0 auto;
-    }
-    .container{
-        width: 275px;
-    }
 }
