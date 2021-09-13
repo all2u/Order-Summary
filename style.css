@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {    
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(images/pattern-background-desktop.svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-color: hsl(225, 100%, 94%);
+    overflow: hidden;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+  }
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: auto;
+}
+
+.card {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 450px; 
+    height: 700px;
+    background: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 5px 10px 30px hsl(0, 0%, 62%);
+    
+}
+
+.card img{
+    width: 100%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    bottom: 0;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+.titre {
+    padding-top: 40px;
+    text-align: center;
+    height: 150px;
+    
+}
+
+h1{
+    font-size: 28px;
+    font-weight: 900;
+}
+
+h3{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.titre p{
+    margin-top: 15px;
+    color: #787c95;
+}
+
+.price{
+    position: relative;
+    display: flex;
+    height: 100px;
+    background: #f8f9fe;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.price .icon{
+    position:absolute;
+    width: 40px;
+    height: 40px;
+    left: 20px
+}
+
+.price a{
+    position:absolute;
+    font-size: 13px;
+    font-weight: 700;
+    right: 20px
+}
+
+.price a:hover{
+    color:hsl(224, 23%, 55%);
+    text-decoration: none
+}
+
+.price p{
+    font-size: 15px;
+    color: #787c95
+}
+
+.price .plan{
+    position:absolute;
+    left: 80px;
+}
+
+button {
+    margin-top: 35px;
+    height: 50px;
+    border-radius: 10px;
+    background: hsl(245, 75%, 52%);
+    border:hidden;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    box-shadow: 10px 10px 15px hsl(225, 100%, 94%);
+}
+button:hover{
+    cursor: pointer;
+    background:#666699;
+}
+h4{
+    margin-top: 35px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 900;
+    color: #787c95;
+}
+
+h4:hover{
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
